@@ -1,0 +1,121 @@
+<!-- 
+
+    SCSS USE
+
+// -------------------- Style.css ------------------------
+
+@import "./style/base/**/*.scss";
+
+// --------------------- Library -------------------------
+@import "./style/specific/2023/bundle_rituel.scss";
+
+    Content asset : bundle-rituel-contenu-enrichi
+
+    Nom de la classe parent : pdp_rituel_2023
+
+-->
+
+<!-- CSS Font -->
+<link href="fonts/fonts.css?$staticlink$" rel="stylesheet">
+<!-- CSS Splide -->
+<link href="script/splide.min.css?$staticlink$" rel="stylesheet">
+
+<!-- inject-style src="dist/css/main.min.css" -->
+<style>
+    .m-pdp__video-content {max-width: 100%;padding: 0;}
+</style>
+<!-- Le style pour les logos injectés -->
+<style>
+    .m-pdp__images-container{position:relative}.c-product-details__logos-bios{display:none}@media screen and (min-width:1024px){.c-product-details__logos-bios{margin-bottom:1rem;height:30px;display:flex;gap:.5rem}}.logos-bio__image{width:auto;height:100%;object-fit:contain}.m-pdp__images-container__logos-bios{position:absolute;bottom:0;right:3%;display:flex;gap:0rem;z-index:2;height:35px;gap:.5rem}.logos-bio__image{width:auto;height:100%;object-fit:contain}@media screen and (min-width:1024px){.m-pdp__images-container__logos-bios{display:none}}
+</style>
+<style>
+    
+.splide--pdp-bundle-rituel .splide__arrow svg {height: 30px;width: 30px;fill: #fff;}.splide--pdp-bundle-rituel .splide__arrow {background: none;opacity: 1;}
+</style>
+
+<div class="pdp_rituel_2023">
+    <section class="splide-container">
+        <div class="splide splide--pdp-bundle-rituel" role="group">
+            <div class="splide__track">
+                  <ul class="splide__list">
+                      <div class="splide__slide">
+                        @@include('./_components/image.html', {
+                            "lien-img": "images/pdp/2024/bundle_rituel/contenu_enrichi_bundle_rituel_1.webp?$staticlink$",
+                            "alt": "product Sleep Ritual and Immune Defense Ritual of Kusmi Tea",
+                        })
+                      </div>
+                      <a href="$url('Product-Show','pid','21251A1070')$" class="splide__slide">
+                        @@include('./_components/image.html', {
+                            "lien-img": "images/pdp/2024/bundle_rituel/contenu_enrichi_bundle_rituel_2.webp?$staticlink$",
+                            "alt": "product Sleep Ritual of Kusmi Tea",
+                        })
+                      </a>
+                      <a href="$url('Product-Show','pid','21153A1070')$" class="splide__slide">
+                        @@include('./_components/image.html', {
+                            "lien-img": "images/pdp/2024/bundle_rituel/contenu_enrichi_bundle_rituel_3.webp?$staticlink$",
+                            "alt": "product Immune Defense Ritual of Kusmi Tea",
+                        })
+                      </a>
+                      <div class="splide__slide">
+                        @@include('./_components/image.html', {
+                            "lien-img": "images/pdp/2024/bundle_rituel/contenu_enrichi_bundle_rituel_4.webp?$staticlink$",
+                            "alt": "product Sleep Ritual and Immune Defense Ritual of Kusmi Tea",
+                        })
+                      </div>
+                  </ul>
+            </div>
+          </div>
+    </section>
+    <section class="bio">
+        <div class="bio__title title-wrapper">
+            @@include('./_components/subtitle.html', {
+                "class-color": "title-wrapper__subtitle--green",
+                "texte-titre": "Nos certifications",
+            })
+        </div>
+        <div class="certifications">
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/bio_label.svg?$staticlink$",
+                    "alt": "organic label",
+                })
+            </div>
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/organic_logo_eu.svg?$staticlink$",
+                    "alt": "European organic certification",
+                })
+            </div>
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/certified_ab.svg?$staticlink$",
+                    "alt": "organic farming certification",
+                })
+            </div>
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/USDA_organic_seal.svg?$staticlink$",
+                    "alt": "usda organic label",
+                })
+            </div>
+        </div>
+        <div class="planet">
+            <div class="planet__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/2023/rituel_sommeil/1_logo.svg?$staticlink$",
+                    "alt": "logo 1% for the planet member",
+                })
+            </div>
+        </div>
+    </section>
+    
+</div>
+
+<!-- inject(js)(inject) [../../dist/js/main.min.js] -->
+<!-- JS Splide -->
+<script src="script/splide.min.js?$staticlink$"></script>
+
+<!-- 
+    JS USE
+    // =require specific/2023/bundle_rituel.js
+-->

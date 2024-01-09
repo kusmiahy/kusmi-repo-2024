@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<redirect-urls xmlns="http://www.demandware.com/xml/impex/redirecturl/2011-09-01">
+
+<!--Redirection Product vers Product-->
+
+    <redirect-url uri="/blue-detox-bio-BLUEBIOMASTER.html?v=21653A1031">
+        <destination-id>BLUEMASTER</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params>v=21653A1031</additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+
+    <redirect-url source-id="21653A1031" source-type="product">
+        <destination-id>BLUEMASTER</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params>v=21653A1072</additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+
+<!--Redirection Product vers Category-->
+   
+   
+    <redirect-url uri="/theiere-en-verre-12l-armonia-5000000488.html">
+        <destination-id>theieres_deguster</destination-id>
+        <destination-type>category</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+
+    <redirect-url source-id="5000000488" source-type="category">
+        <destination-id>Accessoires_isothermes</destination-id>
+        <destination-type>category</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+
+</redirect-urls>

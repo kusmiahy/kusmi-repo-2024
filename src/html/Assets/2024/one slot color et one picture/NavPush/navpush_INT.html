@@ -1,0 +1,24 @@
+<!-- 
+
+    SCSS USE
+
+// -------------------- Style.css ------------------------
+
+@import "./style/base/**/*.scss";
+
+// --------------------- Library -------------------------
+@import "./style/specific/2024/st_valentin.scss";
+
+    Content asset : GEN_ST_VAL_FOURREAU_NAV_PUSH
+
+    Nom de la classe parent : st_valentin_navpush_2023
+
+-->
+
+<section class="st_valentin_navpush_2023">
+    @@include('../components/navpush.html', {
+        "alt": "Click here to see our Valentine's edition gift sets",
+        "texte": "Valentine's Day gift sets",
+        "lien": "$url('Search-Show','cgid','Valentines-selection')$",
+    })
+</section>

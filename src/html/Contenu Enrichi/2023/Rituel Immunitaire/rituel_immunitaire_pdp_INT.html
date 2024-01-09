@@ -1,0 +1,171 @@
+<!-- 
+
+    SCSS USE
+
+// -------------------- Style.css ------------------------
+
+@import "./style/base/**/*.scss";
+
+// --------------------- Library -------------------------
+@import "./style/specific/2023/pdp_rituel.scss";
+
+    Content asset : rituel-immunitaire-contenu-enrichi
+
+    Nom de la classe parent : pdp_rituel_2023
+
+-->
+
+<!-- CSS Font -->
+<link href="fonts/fonts.css?$staticlink$" rel="stylesheet">
+
+<!-- inject-style src="dist/css/main.min.css" -->
+<style>
+    .m-pdp__video-content {
+        max-width: 100%;
+        padding: 0;
+    }
+</style>
+<!-- Le style pour les logos injectés -->
+<style>
+    .m-pdp__images-container{position:relative}.c-product-details__logos-bios{display:none}@media screen and (min-width:1024px){.c-product-details__logos-bios{margin-bottom:1rem;height:30px;display:flex;gap:.5rem}}.logos-bio__image{width:auto;height:100%;object-fit:contain}.m-pdp__images-container__logos-bios{position:absolute;bottom:0;right:3%;display:flex;gap:0rem;z-index:2;height:35px;gap:.5rem}.logos-bio__image{width:auto;height:100%;object-fit:contain}@media screen and (min-width:1024px){.m-pdp__images-container__logos-bios{display:none}}
+</style>
+<!-- Le style pour la pastille -->
+<style>
+    .m-pdp__video-content{max-width:100%;padding:0}.pastille-pdp__container{position:absolute;z-index:5;left:11%;top:6%;height:70px;width:70px}@media screen and (min-width:768px){.pastille-pdp__container{left:18%;top:8%;}}@media screen and (min-width:1024px){.pastille-pdp__container{left:8%;height:90px;width:90px}}.pastille-pdp__container img{width:100%;height:100%;object-fit:contain}
+</style>
+
+<div class="pdp_rituel_2023">
+    <section class="ingredients">
+        <div class="ingredients__title title-wrapper">
+            @@include('./_components/subtitle.html', {
+                "class-color": "title-wrapper__subtitle--orange",
+                "texte-titre": "With Immune Defense Ritual, take care of yourself and treat yourself at the same time!",
+            })
+        </div>
+        <div class="ingredients__container container">
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "mediatags/immu/rituel-immunite_bienfaits.png?$staticlink$",
+                "alt": "pictogram of a man with a shield",
+                "titre": "Specific benefits",
+                "paragraphe": "Boosts your immune system, preserves your vitality and <strong>stimulates the production of antibodies </strong>",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "mediatags/immu/rituel-immunite_principe-actif_en.png?$staticlink$",
+                "alt": "pictogram of a lozenge enriched with vitamin C",
+                "titre": "A recognized active ingredient",
+                "paragraphe": "The <strong>vitamin C</strong> present in acerola extract acts directly to strengthen the immune system ",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "mediatags/immu/rituel-immunite_essentiel.png?$staticlink$",
+                "alt": "100% percentage pictogram",
+                "titre": "Essential to our well-being ",
+                "paragraphe": "3 cups a day provide <strong>100% of the recommended daily intake of vitamin C</strong>",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "mediatags/immu/rituel-immunite_pictos-efficacite-EN.png?$staticlink$",
+                "alt": "proven efficacy message pictogram",
+                "titre": "Proven effectiveness",
+                "paragraphe": "The benefits of Immune Defense Ritual have been proven and recognized by <strong>clinical studies</strong>",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/plaisir.svg?$staticlink$",
+                "alt": "pictogram of a cup seen from above with a red heart in the middle of the cup and a shoot with two leaves",
+                "titre": "A product for pleasure",
+                "paragraphe": "<strong>Unique taste</strong>, easy to integrate into your daily routine",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "mediatags/immu/picto_immu-technologie.png?$staticlink$",
+                "alt": "pictogram of a vial with an acerola (Barbados cherry) in the bottle",
+                "titre": "Exclusive technology ",
+                "paragraphe": "A <strong>unique and innovative scientific process</strong> enables the active ingredient to be bound directly to our ingredients, guaranteeing its effectiveness",
+            })
+        </div>
+    </section>
+    <section class="faq-wrapper">
+        <div class="faq__title">
+            @@include('./_components/title.html', {
+                "texte-titre": "Questions about immune defense ritual",
+            })
+        </div>
+        <div class="faq-container">
+            <div class="faq">
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "What is a plant extract?",
+                    "reponse-texte": "The plant world is full of properties, so scientists have developed specific processes to extract the best from it. <br>The term &quot;plant extract&quot; is used to describe a substance obtained from a plant source and containing compounds that are beneficial to health: active ingredients. <br>Plant extracts are a great way to get the benefits of plants into your daily life. <br>And because pleasure remains our No. 1 objective at Kusmi Tea, we've chosen to combine the effectiveness of these extracts with unforgettable flavors! ",
+                })
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "What is an active ingredient?",
+                    "reponse-texte": "Active ingredients are molecules found directly in nature: in plants, roots, fruits, vegetable oils and so on. They are particularly interesting for their qualities and properties.<br>Here are some examples of active ingredients you may be familiar with: caffeine in coffee, vitamin C in oranges, and omega-3 in oily fish such as salmon.",
+                })
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "What is acerola?",
+                    "reponse-texte": "Acerola, also known as West Indian cherry, is a tropical fruit native to the Caribbean islands. For thousands of years, the indigenous peoples of the Amazon region have consumed it for its beneficial effects on the body. These little red berries are characterized by their tangy taste and are a natural source of vitamin C. Their vitamin C content can be 30 to 40 times higher than oranges!",
+                })
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "What is vitamin C? What are its effects?",
+                    "reponse-texte": "Vitamin C, also known as ascorbic acid, is an essential nutrient for the proper functioning of the body. It has a protective role and multiple effects. It boosts our defenses, preserves our vitality, stimulates the production of antibodies and possesses antioxidant properties. Unfortunately, our bodies cannot synthesize this vitamin naturally, so it must be supplied through a varied and balanced diet. Taking 3 cups a day of our Immune Defense Ritual will give you 100% of the recommended daily intake of vitamin C.",
+                })
+            </div>
+            <div class="faq-container__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/2023/rituel_immunitaire/faq_image.webp?$staticlink$",
+                    "alt": "visual of the ingredients in the immune ritual infusion product",
+                })
+            </div>
+        </div>
+    </section>
+    <section class="bio">
+        <div class="bio__title title-wrapper">
+            @@include('./_components/subtitle.html', {
+                "class-color": "title-wrapper__subtitle--green",
+                "texte-titre": "Our certifications",
+            })
+        </div>
+        <div class="certifications">
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/bio_label.svg?$staticlink$",
+                    "alt": "organic label",
+                })
+            </div>
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/organic_logo_eu.svg?$staticlink$",
+                    "alt": "European organic certification",
+                })
+            </div>
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/certified_ab.svg?$staticlink$",
+                    "alt": "organic farming certification",
+                })
+            </div>
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/USDA_organic_seal.svg?$staticlink$",
+                    "alt": "usda organic label",
+                })
+            </div>
+        </div>
+        <div class="planet">
+            <div class="planet__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/2023/rituel_sommeil/1_logo.svg?$staticlink$",
+                    "alt": "logo 1% for the planet member",
+                })
+            </div>
+        </div>
+    </section>
+    
+</div>
+
+<!-- inject(js)(inject) [../../dist/js/main.min.js] -->
+
+<!-- 
+    JS USE
+    // =require specific/2023/rituel_immunitaire.js
+-->

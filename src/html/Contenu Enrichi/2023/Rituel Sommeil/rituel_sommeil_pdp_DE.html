@@ -1,0 +1,176 @@
+<!-- 
+
+    SCSS USE
+
+// -------------------- Style.css ------------------------
+
+@import "./style/base/**/*.scss";
+
+// --------------------- Library -------------------------
+@import "./style/specific/2023/pdp_rituel.scss";
+
+    Content asset : rituel-sommeil-contenu-enrichi
+
+    Nom de la classe parent : pdp_rituel_2023
+
+-->
+
+<!-- CSS Font -->
+<link href="fonts/fonts.css?$staticlink$" rel="stylesheet">
+
+<!-- inject-style src="dist/css/main.min.css" -->
+<style>
+    .m-pdp__video-content {
+        max-width: 100%;
+        padding: 0;
+    }
+</style>
+<!-- Le style pour les logos injectés -->
+<style>
+    .m-pdp__images-container{position:relative}.c-product-details__logos-bios{display:none}@media screen and (min-width:1024px){.c-product-details__logos-bios{margin-bottom:1rem;height:30px;display:flex;gap:.5rem}}.logos-bio__image{width:auto;height:100%;object-fit:contain}.m-pdp__images-container__logos-bios{position:absolute;bottom:0;right:3%;display:flex;gap:0rem;z-index:2;height:35px;gap:.5rem}.logos-bio__image{width:auto;height:100%;object-fit:contain}@media screen and (min-width:1024px){.m-pdp__images-container__logos-bios{display:none}}
+</style>
+<!-- Le style pour la pastille -->
+<style>
+    .m-pdp__video-content{max-width:100%;padding:0}.pastille-pdp__container{position:absolute;z-index:5;left:11%;top:6%;height:70px;width:70px}@media screen and (min-width:768px){.pastille-pdp__container{left:18%;top:8%;}}@media screen and (min-width:1024px){.pastille-pdp__container{left:8%;height:90px;width:90px}}.pastille-pdp__container img{width:100%;height:100%;object-fit:contain}
+</style>
+
+<div class="pdp_rituel_2023">
+    <section class="ingredients">
+        <div class="ingredients__title title-wrapper">
+            @@include('./_components/subtitle.html', {
+                "class-color": "title-wrapper__subtitle--violet",
+                "texte-titre": "Mit dem Bio Einschlaf Ritual können Sie Ihre Schlafgewohnheiten pflegen und sich gleichzeitig etwas Gutes tun!",
+            })
+        </div>
+        <div class="ingredients__container container">
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/bienfaits.svg?$staticlink$",
+                "alt": "Piktogramm eines schlafenden Gesichts",
+                "titre": "Besondere Vorzüge",
+                "paragraphe": "Verbessert die Schlafqualität, verkürzt die Einschlafzeit, fördert einen erholsamen Schlaf.",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/actif.svg?$staticlink$",
+                "alt": "Piktogramm von zwei grünen Blättern",
+                "titre": "Ein anerkannter Wirkstoff",
+                "paragraphe": "Die im Melissenextrakt enthaltene Rosmarinsäure wirkt sich direkt auf die Qualität Ihres Schlafs aus.",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/scientifique.svg?$staticlink$",
+                "alt": "Piktogramm einer Flasche, in der sich ein Blatt befindet",
+                "titre": "Ein innovatives wissenschaftliches Verfahren",
+                "paragraphe": "Ermöglicht die Bindung des Wirkstoffs direkt an unsere Inhaltsstoffe und garantiert seine Wirksamkeit.",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/efficacite.svg?$staticlink$",
+                "alt": "Piktogramm eines Kontrollkästchens, das angekreuzt wird",
+                "titre": "Eine nachgewiesene Wirksamkeit",
+                "paragraphe": "Die Vorteile von Bio Einschlaf Ritual wurden in klinischen Studien nachgewiesen und anerkannt.",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/plaisir.svg?$staticlink$",
+                "alt": "Piktogramm einer Tasse von oben mit einem roten Herz in der Mitte der Tasse mit einem Spross, der zwei Blätter hat",
+                "titre": "Ein Genussprodukt",
+                "paragraphe": "Einzigartiger Geschmack, der sich leicht in Ihre tägliche Routine integrieren lässt.",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/sanstheine.svg?$staticlink$",
+                "alt": "Piktogramm eines Sprosses mit zwei Blättern, der durchgestrichen ist",
+                "titre": "Ohne Teein",
+                "paragraphe": "Zur Förderung der Entspannung und zum leichteren Einschlafen.",
+            })
+        </div>
+    </section>
+    <section class="faq-wrapper">
+        <div class="faq__title">
+            @@include('./_components/title.html', {
+                "texte-titre": "Fragen zum Einschlaf Ritual",
+            })
+        </div>
+        <div class="faq-container">
+            <div class="faq">
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "Was ist ein Pflanzenextrakt?",
+                    "reponse-texte": "Die Pflanzenwelt steckt voller positiver Eigenschaften. Wissenschaftler haben daher spezielle Verfahren entwickelt, um das Beste aus ihnen herauszuholen.<br>Man spricht von einem Pflanzenextrakt, um eine Substanz zu bezeichnen, die aus einer pflanzlichen Quelle gewonnen wird und gesundheitsfördernde Verbindungen enthält: die Wirkstoffe.<br>Pflanzenextrakte sind eine hervorragende Möglichkeit, die gesundheitlichen Vorteile von Pflanzen in Ihrem täglichen Leben zu nutzen.<br>Weil der Genuss bei Kusmi Tea darüber hinaus unser oberstes Ziel bleibt, haben wir uns entschieden, die Wirksamkeit dieser Extrakte mit unvergesslichen Geschmacksrichtungen zu kombinieren!",
+                })
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "Was ist ein Wirkstoff?",
+                    "reponse-texte": "Wirkstoffe sind Moleküle, die direkt in der Natur vorkommen: in Pflanzen, Wurzeln, Früchten, Pflanzenölen usw. Sie sind besonders interessant aufgrund ihrer wohltuenden Wirkungen und ihrer Eigenschaften. <br>Hier sind Beispiele für Wirkstoffe, die Sie kennen: Koffein in Kaffee, Vitamin C in Orangen, Omega-3-Fettsäuren in fettreichem Fisch wie Lachs.",
+                })
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "Melisse, was ist das? Warum haben wir uns entschieden, diesen Inhaltsstoff für unsere Schlafmischung zu verwenden?",
+                    "reponse-texte": "Die Melisse ist eine mehrjährige krautige Pflanze aus der Familie der Lippenblütler, die im Mittelmeerraum beheimatet ist. Ihr frischer, leicht zitroniger Geruch macht sie zu einer beliebten Gewürzpflanze. Ihre Verwendung für ihre wohltuenden Eigenschaften reicht mehr als 2000 Jahre zurück.<br>Heute erkennt die wissenschaftliche Gemeinschaft ihre Wirkungen auf die Schlafqualität an. Deshalb konnten wir uns diesen Schatz der Natur mit seinen vielfältigen Qualitäten/wohltuenden Eigenschaften nicht entgehen lassen und haben ihn daher in unser Schlafritual integriert.",
+                })
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "Was kann man über Rooibos sagen?",
+                    "reponse-texte": "Rooibos bedeutet „Rotbusch“ in Afrikaans, einer der offiziellen Sprachen Südafrikas. Aus diesem Grund und weil sein Aufguss ebenfalls leuchtend ist, wird er überall auf der Welt als Rotbuschtee bezeichnet, obwohl er kein Thein enthält. ",
+                })
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "Was kann man über Eisenkraut sagen?",
+                    "reponse-texte": "Eisenkraut ist eine aromatische Pflanze, die zur Familie der Eisenkrautgewächse (Verbenaceae) gehört.<br>In der Römerzeit galt dieses Kraut als heilig und man schrieb ihm magische Kräfte zu. Sehr bald wurde Eisenkraut auch in der Volksmedizin verwendet, insbesondere wegen seiner entspannenden und beruhigenden Wirkung.",
+                })
+            </div>
+            <div class="faq-container__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/2023/rituel_sommeil/faq_image.webp?$staticlink$",
+                    "alt": "Visuelle Darstellung der Zutaten im Produkt Schlafritualtee ",
+                })
+            </div>
+        </div>
+    </section>
+    <section class="bio">
+        <div class="bio__title title-wrapper">
+            @@include('./_components/subtitle.html', {
+                "class-color": "title-wrapper__subtitle--green",
+                "texte-titre": "Unsere qualitätsgarantie",
+            })
+        </div>
+        <div class="certifications">
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/bio_label.svg?$staticlink$",
+                    "alt": "Bio-Siegel",
+                })
+            </div>
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/organic_logo_eu.svg?$staticlink$",
+                    "alt": "europäische Bio-Zertifizierung",
+                })
+            </div>
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/certified_ab.svg?$staticlink$",
+                    "alt": "Zertifizierung biologischer Landwirtschaft",
+                })
+            </div>
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/USDA_organic_seal.svg?$staticlink$",
+                    "alt": "usda-bio-label",
+                })
+            </div>
+        </div>
+        <div class="planet">
+            <div class="planet__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/2023/rituel_sommeil/1_logo.svg?$staticlink$",
+                    "alt": "Logo 1% for the planet Mitglied",
+                })
+            </div>
+        </div>
+    </section>
+    
+</div>
+
+<!-- inject(js)(inject) [../../dist/js/main.min.js] -->
+
+<!-- 
+    JS USE
+    // =require specific/2023/rituel_immunitaire.js
+-->

@@ -1,0 +1,32 @@
+<!-- 
+
+    SCSS USE
+
+// -------------------- Style.css ------------------------
+
+@import "./style/base/**/*.scss";
+
+// --------------------- Library -------------------------
+@import "./style/specific/2023/slot_black_friday.scss";
+
+    Content asset : 
+
+    Nom de la classe parent : black_friday_hero_2023
+
+-->
+
+<!-- CSS Font -->
+<link href="fonts/fonts.css?$staticlink$" rel="stylesheet">
+<!-- inject-style src="dist/css/main.min.css" -->
+
+<a href="$url('Search-Show','cgid','black_friday')$" class="black_friday_push_2023 col-xs-6 col-sm-4 col-lg-3">
+    <article class="push">
+        @@include('../components/push-2.html', {
+            "texte-h2": "Black<br>friday",
+            "texte-extra": "+ EXTRA <span class='rotation'>-10%</span>",
+            "texte-paragraphe": "su TUTTO il sito<br>a partire da 80€",
+            "texte-code": "Codice: <strong><u>EXTRA</u></strong>",
+            "text-link": "Scopri ora",
+        })
+    </article>
+</a>

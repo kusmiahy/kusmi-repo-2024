@@ -1,0 +1,176 @@
+<!-- 
+
+    SCSS USE
+
+// -------------------- Style.css ------------------------
+
+@import "./style/base/**/*.scss";
+
+// --------------------- Library -------------------------
+@import "./style/specific/2023/pdp_rituel.scss";
+
+    Content asset : rituel-sommeil-contenu-enrichi
+
+    Nom de la classe parent : pdp_rituel_2023
+
+-->
+
+<!-- CSS Font -->
+<link href="fonts/fonts.css?$staticlink$" rel="stylesheet">
+
+<!-- inject-style src="dist/css/main.min.css" -->
+<style>
+    .m-pdp__video-content {
+        max-width: 100%;
+        padding: 0;
+    }
+</style>
+<!-- Le style pour les logos injectés -->
+<style>
+    .m-pdp__images-container{position:relative}.c-product-details__logos-bios{display:none}@media screen and (min-width:1024px){.c-product-details__logos-bios{margin-bottom:1rem;height:30px;display:flex;gap:.5rem}}.logos-bio__image{width:auto;height:100%;object-fit:contain}.m-pdp__images-container__logos-bios{position:absolute;bottom:0;right:3%;display:flex;gap:0rem;z-index:2;height:35px;gap:.5rem}.logos-bio__image{width:auto;height:100%;object-fit:contain}@media screen and (min-width:1024px){.m-pdp__images-container__logos-bios{display:none}}
+</style>
+<!-- Le style pour la pastille -->
+<style>
+    .m-pdp__video-content{max-width:100%;padding:0}.pastille-pdp__container{position:absolute;z-index:5;left:11%;top:6%;height:70px;width:70px}@media screen and (min-width:768px){.pastille-pdp__container{left:18%;top:8%;}}@media screen and (min-width:1024px){.pastille-pdp__container{left:8%;height:90px;width:90px}}.pastille-pdp__container img{width:100%;height:100%;object-fit:contain}
+</style>
+
+<div class="pdp_rituel_2023">
+    <section class="ingredients">
+        <div class="ingredients__title title-wrapper">
+            @@include('./_components/subtitle.html', {
+                "class-color": "title-wrapper__subtitle--violet",
+                "texte-titre": "Avec Rituel Sommeil, prenez soin de vous tout en vous faisant plaisir !",
+            })
+        </div>
+        <div class="ingredients__container container">
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/bienfaits.svg?$staticlink$",
+                "alt": "pictogramme d'un visage dormant",
+                "titre": "Des bienfaits spécifiques",
+                "paragraphe": "Améliore la qualité du sommeil, réduit le temps d’endormissement, favorise un sommeil réparateur",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/actif.svg?$staticlink$",
+                "alt": "pictogramme de deux feuilles vertes",
+                "titre": "Un principe actif reconnu",
+                "paragraphe": "L’acide rosmarinique présent dans l’extrait de mélisse agit directement sur la qualité de votre sommeil",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/scientifique.svg?$staticlink$",
+                "alt": "pictogramme d'un flacon avec une feuille à l'intérieur",
+                "titre": "Un procédé scientifique innovant",
+                "paragraphe": "Permettant de fixer le principe actif directement sur nos ingrédients et garantissant son efficacité",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/efficacite.svg?$staticlink$",
+                "alt": "pictogramme d'une case à cocher qui est cochée",
+                "titre": "Une efficacité prouvée",
+                "paragraphe": "Les bienfaits de Rituel Sommeil ont été prouvés et reconnus par des études cliniques",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/plaisir.svg?$staticlink$",
+                "alt": "pictogramme d'une tasse vue d'en haut avec un coeur rouge au milieu de la tasse avec une pousse qui a deux feuilles",
+                "titre": "Un produit plaisir",
+                "paragraphe": "Au goût unique, facile à intégrer dans votre routine quotidienne",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/sanstheine.svg?$staticlink$",
+                "alt": "pictogramme d'une pousse avec deux feuilles qui est barrée",
+                "titre": "Sans théine",
+                "paragraphe": "Pour favoriser la relaxation et faciliter l’endormissement",
+            })
+        </div>
+    </section>
+    <section class="faq-wrapper">
+        <div class="faq__title">
+            @@include('./_components/title.html', {
+                "texte-titre": "Questions sur Rituel Sommeil",
+            })
+        </div>
+        <div class="faq-container">
+            <div class="faq">
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "Qu'est-ce qu'un extrait végétal ?",
+                    "reponse-texte": "Le monde végétal regorge de vertus, les scientifiques ont donc développé des procédés spécifiques afin d'en extraire ce qu'il y a de meilleur. On parle d'extrait végétal pour qualifier une substance obtenue à partir d'une source végétale et qui contient des composés bénéfiques pour la santé : les principes actifs. Les extraits végétaux sont un excellent moyen d'obtenir les bienfaits des plantes dans votre vie quotidienne. Et parce que le plaisir reste notre objectif n°1 chez Kusmi Tea, nous avons fait le choix d’allier l’efficacité de ces extraits à des saveurs inoubliables !",
+                })
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "Qu'est-ce qu'un principe actif ?",
+                    "reponse-texte": "Les principes actifs sont des molécules que l'on trouve directement dans la nature : dans des plantes, des racines, des fruits, des huiles végétales etc. Ils sont particulièrement intéressants pour leurs vertus et leurs propriétés. <br>C'est pour cette raison que les principes actifs sont extraits afin d'être utilisés dans divers produits du quotidien : dans des produits de cosmétiques, des compléments alimentaires, des médicaments ou bien dans des produits alimentaires enrichis, comme nos thés et nos infusions de la gamme Rituel. <br>Voici des exemples de principes actifs que vous connaissez : la caféine dans le café, la vitamine C dans les oranges, les omégas 3 dans les poissons gras comme le saumon.",
+                })
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "La mélisse, qu'est-ce que c'est ?",
+                    "reponse-texte": "La mélisse est une plante herbacée vivace de la famille des Lamiacées originaire du bassin méditerranéen. Son odeur fraîche et légèrement citronnée en fait une plante aromatique très appréciée. Son utilisation pour ses propriétés bénéfiques remonte à plus de 2000 ans. De nos jours, la communauté scientifique reconnait ses effets sur la qualité du sommeil. Nous ne pouvions donc pas passer à côté de ce trésor de la nature aux multiples vertus et l'avons donc intégré dans notre Rituel Sommeil.",
+                })
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "Le rooibos, qu'est ce que c'est ?",
+                    "reponse-texte": "Rooibos signifie « buisson rouge » en afrikaans, l’une des langues officielles de l’Afrique du Sud. Pour cette raison et parce que son infusion est elle aussi flamboyante, il est surnommé « thé rouge » partout dans le monde alors qu’il ne contient pourtant pas de théine.",
+                })
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "La verveine, qu'est ce que c'est ?",
+                    "reponse-texte": "La verveine est une plante aromatique qui fait partie de la famille des verbenacées. À l’époque romaine, cette herbe était considérée comme sacrée et on lui attribuait des pouvoirs magiques. Très vite, la verveine a également été utilisée en médecine populaire notamment pour ses vertus relaxantes et apaisantes.",
+                })
+            </div>
+            <div class="faq-container__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/2023/rituel_sommeil/faq_image.webp?$staticlink$",
+                    "alt": "visuel des ingrédients dans le produit l'infusion rituel sommeil ",
+                })
+            </div>
+        </div>
+    </section>
+    <section class="bio">
+        <div class="bio__title title-wrapper">
+            @@include('./_components/subtitle.html', {
+                "class-color": "title-wrapper__subtitle--green",
+                "texte-titre": "Nos certifications",
+            })
+        </div>
+        <div class="certifications">
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/bio_label.svg?$staticlink$",
+                    "alt": "label bio",
+                })
+            </div>
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/organic_logo_eu.svg?$staticlink$",
+                    "alt": "certification européenne bio",
+                })
+            </div>
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/certified_ab.svg?$staticlink$",
+                    "alt": "certification agriculture biologique",
+                })
+            </div>
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/USDA_organic_seal.svg?$staticlink$",
+                    "alt": "usda organic label",
+                })
+            </div>
+        </div>
+        <div class="planet">
+            <div class="planet__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/2023/rituel_sommeil/1_logo.svg?$staticlink$",
+                    "alt": "logo 1% for the planet member",
+                })
+            </div>
+        </div>
+    </section>
+    
+</div>
+
+<!-- inject(js)(inject) [../../dist/js/main.min.js] -->
+
+<!-- 
+    JS USE
+    // =require specific/2023/rituel_immunitaire.js
+-->

@@ -1,0 +1,132 @@
+$green-bio: #3cad2b;
+$gap-title: 2.5rem;
+$padding-block-mob: 3.5rem;
+$padding-block-desk: 4rem;
+$paragraphe-line-height: 1.25rem;
+$title-size-mob: 1.05rem;
+$title-size-desk: 1.5rem;
+
+.certifs_bio_2023 {
+    width: 100%;
+}
+.title-wrapper__subtitle {
+    font-family: 'Barlow', sans-serif;
+    font-size: $title-size-mob;
+    margin-bottom: $gap-title;
+    text-align: center;
+    font-weight: bold;
+    line-height: $paragraphe-line-height;
+    width: 100%;
+
+    @include min1024() {
+        font-size: $title-size-desk;
+        line-height: 2rem;
+    }
+    @include min1440() {
+        font-size: $title-size-desk;
+        line-height: 2rem;
+    }
+
+    &--green {
+        text-transform: uppercase;
+        color: $green-bio;
+    }
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block-end: $padding-block-mob;
+
+    @include min1024() {
+        padding-block: 2.5rem 0;
+    }
+
+    &__title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .certifications {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+
+        @include min1024() {
+            gap: 1rem;
+        }
+
+        &__image {
+            height: 65px;
+            width: auto;
+
+            @include min1024() {
+                height: 90px;
+            }
+
+            &:first-child {
+                width: 80px;
+
+                @include min1024() {
+                    width: 110px;
+                }
+            }
+
+            &:nth-child(2) {
+                width: 97px;
+
+                @include min1024() {
+                    width: 134.5px;
+                }
+            }
+
+            &:nth-child(3) {
+                width: 46px;
+
+                @include min1024() {
+                    width: 64px;
+                }
+            }
+
+            &:last-child {
+                width: 65px;
+
+                @include min1024() {
+                    width: 90px;
+                }
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+    .planet {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-block: 1.5rem 0;
+
+        &__image {
+            height: 65px;
+            width: auto;
+
+            @include min1024() {
+                height: 90px;
+            }
+
+            img {
+                object-fit: contain;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

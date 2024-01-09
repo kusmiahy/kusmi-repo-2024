@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<redirect-urls xmlns="http://www.demandware.com/xml/impex/redirecturl/2011-09-01">
+
+<!--Redirection Product vers Product-->
+
+<!-- FR -->
+    <redirect-url uri="/calendrier-de-l-avent-kusmi-tea-bio-21148A2500.html">
+        <destination-id>21211A2500</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params></additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+
+<!-- EN -->
+    <redirect-url uri="/kusmi-tea-organic-advent-calendar-21148A2500.html">
+        <destination-id>21211A2500</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params></additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+
+    <redirect-url source-id="21148A2500" source-type="product">
+        <destination-id>21211A2500</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params></additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+
+
+<!-- FR -->
+    <redirect-url uri="/coffret-tsarevna-bio-21137A1260.html">
+        <destination-id>21081A1260</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params></additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+
+<!-- EN -->
+    <redirect-url uri="/organic-tsarevna-gift-set-21137A1260.html">
+        <destination-id>21081A1260</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params></additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+
+    <redirect-url source-id="21137A1260" source-type="product">
+        <destination-id>21081A1260</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params></additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+
+<!-- FR -->
+    <redirect-url uri="/coffret-les-iconiques-bio-21154A1170.html">
+        <destination-id>21213A1170</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params></additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+
+<!-- EN -->
+    <redirect-url uri="/iconic-blends-gift-set-organic-21154A1170.html">
+        <destination-id>21213A1170</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params></additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+
+    <redirect-url source-id="21154A1170" source-type="product">
+        <destination-id>21213A1170</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params></additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+
+    <!-- MASTER -->
+    <redirect-url source-id="GLOG22BIOMASTER" source-type="product">
+        <destination-id>GLOG23BIOMASTER</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params></additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+    <!-- MASTER -->
+    <redirect-url source-id="GLOG22BIOMASTER" source-type="product">
+        <destination-id>GLOG23BIOMASTER</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params>v=21082A1070</additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+    <!-- URL -->
+    <redirect-url uri="/glogg-infusion-bio-GLOG22BIOMASTER.html?v=21150A1070">
+        <destination-id>GLOG23BIOMASTER</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params>v=21150A1070</additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+    <!-- URL -->
+    <redirect-url uri="/glogg-organic-herbal-tea-GLOG22BIOMASTER.html?v=21150A1070">
+        <destination-id>GLOG23BIOMASTER</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params>v=21150A1070</additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+    <!-- MASTER -->
+    <redirect-url source-id="GLOG22BIOMASTER" source-type="product">
+        <destination-id>GLOG23BIOMASTER</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params>v=21680A1050</additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+    <!-- URL -->
+    <redirect-url uri="/glogg-infusion-bio-GLOG22BIOMASTER.html?v=21150A1120">
+        <destination-id>GLOG23BIOMASTER</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params>v=21680A1050</additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+    <!-- URL -->
+    <redirect-url uri="/glogg-organic-herbal-tea-GLOG22BIOMASTER.html?v=21150A1120">
+        <destination-id>GLOG23BIOMASTER</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params>v=21680A1050</additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+    <!-- MASTER -->
+    <redirect-url source-id="TSAR22BIOMASTER" source-type="product">
+        <destination-id>TSAR23BIOMASTER</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params></additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+    <!-- URL -->
+    <redirect-url uri="/tsarevna-bio-TSAR22BIOMASTER.html?v=21137A1070">
+        <destination-id>TSAR23BIOMASTER</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params>v=21081A1070</additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+    <!-- URL -->
+    <redirect-url uri="/tsarevna-organic-TSAR22BIOMASTER.html?v=21137A1070">
+        <destination-id>TSAR23BIOMASTER</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params>v=21081A1070</additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+    <!-- URL -->
+    <redirect-url uri="/tsarevna-bio-TSAR22BIOMASTER.html?v=21137A1120">
+        <destination-id>TSAR23BIOMASTER</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params>v=21137A1050</additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+    <!-- URL -->
+    <redirect-url uri="/tsarevna-organic-TSAR22BIOMASTER.html?v=21137A1120">
+        <destination-id>TSAR23BIOMASTER</destination-id>
+        <destination-type>product</destination-type>
+        <status-code>301</status-code>
+        <enabled-flag>true</enabled-flag>
+        <additional-url-params>v=21137A1050</additional-url-params>
+        <copy-source-params>no</copy-source-params>
+    </redirect-url>
+</redirect-urls>

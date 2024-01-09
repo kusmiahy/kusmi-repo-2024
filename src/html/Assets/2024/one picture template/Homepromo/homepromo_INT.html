@@ -1,0 +1,31 @@
+<!-- 
+
+    SCSS USE
+
+// -------------------- Style.css ------------------------
+
+@import "./style/base/**/*.scss";
+
+// --------------------- Library -------------------------
+@import "./style/specific/2023/gamme_rituel.scss";
+
+    Content asset : 
+
+    Nom de la classe parent : gamme_rituel_hero_2023
+
+-->
+
+<!-- CSS Font -->
+<link href="fonts/fonts.css?$staticlink$" rel="stylesheet">
+<!-- inject-style src="dist/css/main.min.css" -->
+
+<section class="gamme_rituel_homepromo_2023">
+    <a href="$url('Search-Show','cgid','health_tea_infusion')$">
+        @@include('../components/homepromo.html', {
+            "alt": "Click on &quot;Discover now&quot; to discover our new range &quot;Rituel range of tea and infusion with proven benefits&quot;",
+            "title": "Act for your well-being",
+            "subtitle": "Tea and infusions with proven benefits",
+            "text-link": "<span class='x-hide-mobile'>Discover now</span><span class='x-hide-desktop'>Act for your well-being ></span>",
+        })
+    </a>
+</section>

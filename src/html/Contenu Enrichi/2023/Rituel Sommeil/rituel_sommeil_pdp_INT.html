@@ -1,0 +1,176 @@
+<!-- 
+
+    SCSS USE
+
+// -------------------- Style.css ------------------------
+
+@import "./style/base/**/*.scss";
+
+// --------------------- Library -------------------------
+@import "./style/specific/2023/pdp_rituel.scss";
+
+    Content asset : rituel-sommeil-contenu-enrichi
+
+    Nom de la classe parent : pdp_rituel_2023
+
+-->
+
+<!-- CSS Font -->
+<link href="fonts/fonts.css?$staticlink$" rel="stylesheet">
+
+<!-- inject-style src="dist/css/main.min.css" -->
+<style>
+    .m-pdp__video-content {
+        max-width: 100%;
+        padding: 0;
+    }
+</style>
+<!-- Le style pour les logos injectés -->
+<style>
+    .m-pdp__images-container{position:relative}.c-product-details__logos-bios{display:none}@media screen and (min-width:1024px){.c-product-details__logos-bios{margin-bottom:1rem;height:30px;display:flex;gap:.5rem}}.logos-bio__image{width:auto;height:100%;object-fit:contain}.m-pdp__images-container__logos-bios{position:absolute;bottom:0;right:3%;display:flex;gap:0rem;z-index:2;height:35px;gap:.5rem}.logos-bio__image{width:auto;height:100%;object-fit:contain}@media screen and (min-width:1024px){.m-pdp__images-container__logos-bios{display:none}}
+</style>
+<!-- Le style pour la pastille -->
+<style>
+    .m-pdp__video-content{max-width:100%;padding:0}.pastille-pdp__container{position:absolute;z-index:5;left:11%;top:6%;height:70px;width:70px}@media screen and (min-width:768px){.pastille-pdp__container{left:18%;top:8%;}}@media screen and (min-width:1024px){.pastille-pdp__container{left:8%;height:90px;width:90px}}.pastille-pdp__container img{width:100%;height:100%;object-fit:contain}
+</style>
+
+<div class="pdp_rituel_2023">
+    <section class="ingredients">
+        <div class="ingredients__title title-wrapper">
+            @@include('./_components/subtitle.html', {
+                "class-color": "title-wrapper__subtitle--violet",
+                "texte-titre": "With Sleep Ritual, take care of yourself and treat yourself at the same time!",
+            })
+        </div>
+        <div class="ingredients__container container">
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/bienfaits.svg?$staticlink$",
+                "alt": "pictogram of a sleeping face",
+                "titre": "Specific benefits",
+                "paragraphe": "Improves sleep quality, shortens the time it takes to fall asleep, and promotes restful sleep",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/actif.svg?$staticlink$",
+                "alt": "pictogram of two green leaves",
+                "titre": "A recognized active ingredient",
+                "paragraphe": "The rosmarinic acid present in lemon balm extract acts directly on the quality of your sleep",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/scientifique.svg?$staticlink$",
+                "alt": "pictogram of a bottle with a leaf inside",
+                "titre": "An innovative scientific process",
+                "paragraphe": "Enables the active ingredient to be bound directly to our ingredients, guaranteeing its efficacy",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/efficacite.svg?$staticlink$",
+                "alt": "pictogram of a tick box being ticked",
+                "titre": "Proven effectiveness",
+                "paragraphe": "The benefits of Sleep Ritual have been proven and recognized by clinical studies",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/plaisir.svg?$staticlink$",
+                "alt": "pictogram of a cup seen from above with a red heart in the middle of the cup and a shoot with two leaves",
+                "titre": "A product for pleasure",
+                "paragraphe": "Unique taste, easy to integrate into your daily routine",
+            })
+            @@include('./_components/ingredient-element.html', {
+                "lien-image": "images/pdp/2023/rituel_sommeil/sanstheine.svg?$staticlink$",
+                "alt": "pictogram of a shoot with two leaves that is crossed out",
+                "titre": "Theine-free",
+                "paragraphe": "To help you relax and fall asleep",
+            })
+        </div>
+    </section> 
+    <section class="faq-wrapper">
+        <div class="faq__title">
+            @@include('./_components/title.html', {
+                "texte-titre": "Questions about sleep ritual",
+            })
+        </div>
+        <div class="faq-container">
+            <div class="faq">
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "What is a plant extract?",
+                    "reponse-texte": "The plant world is full of properties, so scientists have developed specific processes to extract the best from it. <br>The term &#34;plant extract&#34; is used to describe a substance obtained from a plant source and containing compounds that are beneficial to health: active ingredients. <br>Plant extracts are a great way to get the benefits of plants into your daily life. <br>And because pleasure remains our No. 1 objective at Kusmi Tea, we've chosen to combine the effectiveness of these extracts with unforgettable flavors!",
+                })
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "What is an active ingredient? ",
+                    "reponse-texte": "Active ingredients are molecules found directly in nature: in plants, roots, fruits, vegetable oils and so on. They are particularly interesting for their qualities and properties. <br>Here are some examples of active ingredients you may be familiar with: caffeine in coffee, vitamin C in oranges, and omega-3 in oily fish such as salmon.",
+                })
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "What is lemon balm? Why did we decide to use this ingredient for our Sleep blend?",
+                    "reponse-texte": "Lemon balm is a perennial herbaceous plant of the Lamiaceae family native to the Mediterranean basin. Its fresh, slightly lemony fragrance makes it a popular aromatic plant. Its use for its beneficial properties dates back more than 2,000 years.<br>Today, the scientific community recognizes its effects on sleep quality. So we couldn't pass up this natural treasure with its many qualities and properties, and included it in our Rituel Sommeil.",
+                })
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "What can we say about rooibos?",
+                    "reponse-texte": "Rooibos means &#34;red bush&#34; in Afrikaans, one of South Africa's official languages. For this reason, and because its infusion is also flamboyant, it's nicknamed &#34;red tea&#34; all over the world, even though it contains no theine. ",
+                })
+                @@include('./_components/faq-element.html', {
+                    "class": "",
+                    "question-texte": "What can we say about verbena?",
+                    "reponse-texte": "Verbena is an aromatic plant in the Verbenaceae family. In Roman times, this herb was considered sacred and was said to have magical powers. Verbena was soon used in folk medicine for its relaxing and soothing properties.",
+                })
+            </div>
+            <div class="faq-container__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/2023/rituel_sommeil/faq_image.webp?$staticlink$",
+                    "alt": "visual of the ingredients of the sleep ritual infusion product",
+                })
+            </div>
+        </div>
+    </section>
+    <section class="bio">
+        <div class="bio__title title-wrapper">
+            @@include('./_components/subtitle.html', {
+                "class-color": "title-wrapper__subtitle--green",
+                "texte-titre": "Our certifications",
+            })
+        </div>
+        <div class="certifications">
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/bio_label.svg?$staticlink$",
+                    "alt": "organic label",
+                })
+            </div>
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/organic_logo_eu.svg?$staticlink$",
+                    "alt": "European organic certification",
+                })
+            </div>
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/certified_ab.svg?$staticlink$",
+                    "alt": "organic farming certification",
+                })
+            </div>
+            <div class="certifications__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/bio_certifs/USDA_organic_seal.svg?$staticlink$",
+                    "alt": "usda organic label",
+                })
+            </div>
+        </div>
+        <div class="planet">
+            <div class="planet__image">
+                @@include('./_components/image.html', {
+                    "lien-img": "images/pdp/2023/rituel_sommeil/1_logo.svg?$staticlink$",
+                    "alt": "logo 1% for the planet member",
+                })
+            </div>
+        </div>
+    </section>
+    
+</div>
+
+<!-- inject(js)(inject) [../../dist/js/main.min.js] -->
+
+<!-- 
+    JS USE
+    // =require specific/2023/rituel_immunitaire.js
+-->

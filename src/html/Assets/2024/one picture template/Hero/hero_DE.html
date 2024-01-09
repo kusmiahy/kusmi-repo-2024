@@ -1,0 +1,34 @@
+<!-- 
+
+    SCSS USE
+
+// -------------------- Style.css ------------------------
+
+@import "./style/base/**/*.scss";
+
+// --------------------- Library -------------------------
+@import "./style/specific/2023/gamme_rituel.scss";
+
+    Content asset : 
+
+    Nom de la classe parent : gamme_rituel_hero_2023
+
+-->
+
+<!-- CSS Font -->
+<link href="fonts/fonts.css?$staticlink$" rel="stylesheet">
+<!-- inject-style src="dist/css/main.min.css" -->
+
+<section class="gamme_rituel_hero_2023">
+    <a href="$url('Search-Show','cgid','gesundheit_tee_krautertee')$">
+        @@include('../components/slot.html', {
+            "alt": "Klicken Sie auf &quot;Jetzt entdecke&quot;, um unsere neue Produktreihe &quot;Ritual-Sortiment, Tee und Kräutertee mit nachgewiesenen Vorteilen&quot; zu entdecken;",
+            "title": "Handeln Sie<span class='x-hide-mobile'><br></span>für Ihr Wohlbefinden",
+            "subtitle": "Innovation: Entdecken Sie unser Ritual-Sortiment, Tee und Kräutertee mit nachgewiesenen Vorteilen",
+            "text-link": "Jetzt entdecke",
+            "pastille-efficacite": "images/assets/2023/rituel_immunitaire/efficacite_prouve_de.svg?$staticlink$",
+            "alt-efficacite": "Pastille erwiesenermaßen wirksam",
+            "class-pastille-efficacite": "pastille-efficacite--de",
+        })
+    </a>
+</section>

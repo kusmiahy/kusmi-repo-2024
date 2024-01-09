@@ -1,0 +1,31 @@
+<!-- 
+
+    SCSS USE
+
+// -------------------- Style.css ------------------------
+
+@import "./style/base/**/*.scss";
+
+// --------------------- Library -------------------------
+@import "./style/specific/2024/st_valentin.scss";
+
+    Content asset : GEN_ST_VAL_FOURREAU_HOME_PROMO
+
+    Nom de la classe parent : st_valentin_homepromo_2023
+
+-->
+
+<!-- CSS Font -->
+<link href="fonts/fonts.css?$staticlink$" rel="stylesheet">
+<!-- inject-style src="dist/css/main.min.css" -->
+
+<section class="st_valentin_homepromo_2023">
+    <a href="$url('Product-Show','pid','21199A1070')$">
+        @@include('../components/homepromo.html', {
+            "alt": "Cliccare sul pulsante &quot;Scopri ora&quot; per accedere ai nostri cofanetti in edizione San Valentino",
+            "title": "Festeggia l'amore con Kusmi Tea!",
+            "subtitle": "Scoprite i nostri cofanetti da tè in edizione San Valentino",
+            "text-link": "<span class='x-hide-mobile'>Scopri ora</span><span class='x-hide-desktop'>Cofanetti San Valentino ></span>",
+        })
+    </a>
+</section>

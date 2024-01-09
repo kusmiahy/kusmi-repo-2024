@@ -1,0 +1,37 @@
+<!-- 
+
+    SCSS USE
+
+// -------------------- Style.css ------------------------
+
+@import "./style/base/**/*.scss";
+
+// --------------------- Library -------------------------
+@import "./style/specific/2023/slot_black_friday.scss";
+
+    Content asset : 
+
+    Nom de la classe parent : black_friday_hero_2023
+
+-->
+
+<!-- CSS Font -->
+<link href="fonts/fonts.css?$staticlink$" rel="stylesheet">
+<!-- inject-style src="dist/css/main.min.css" -->
+
+<div class="black_friday_hero_2023">
+    <article class="hero">
+        @@include('../components/slot-1-cta.html', {
+            "texte-h2": "Black Friday",
+            "texte-until": "Enjoy up to",
+            "texte-pourcentage": "20% off",
+            "texte-paragraphe": "The whole website!",
+            "first-link": "nos_thes_infusions",
+            "first-text-link": "Shop now",
+        })
+    </article>
+</div>
+
+
+
+
