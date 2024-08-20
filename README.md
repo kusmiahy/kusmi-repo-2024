@@ -2,7 +2,7 @@
 
 * Team Inté
 
-### install ###
+### Install ###
 * git clone https://github.com/kusmiahy/kusmi-repo-2024.git
 * cd kusmi-repo 
 * npm install
@@ -12,7 +12,7 @@
 * your html file need to be index.prod.html for compile 
 * You juste take of the prod for stop to compile the file index.html 
 
-## Links ##
+## Aide pour les différents liens sur SFCC ##
 
 <!--Lien vers une fiche produit-->
 <a href="$url('Product-Show','pid','652788321005')$">Lien vers mon produit dont l'id = 652788321005 </a>
