@@ -1,20 +1,10 @@
-# README #
-
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://github.com/kusmiahy/kusmi-repo)
-
-### Who do I talk to? ###
+## Repository des intégrateurs de Kusmi ##
 
 * Team Inté
 
-### install ###
+### Install ###
 * git clone https://github.com/kusmiahy/kusmi-repo-2024.git
-* cd kusmi-repo-2024
+* cd kusmi-repo 
 * npm install
 * gulp prod
 
@@ -22,7 +12,7 @@ This README would normally document whatever steps are necessary to get your app
 * your html file need to be index.prod.html for compile 
 * You juste take of the prod for stop to compile the file index.html 
 
-## Links ##
+## Aide pour les différents liens sur SFCC ##
 
 <!--Lien vers une fiche produit-->
 <a href="$url('Product-Show','pid','652788321005')$">Lien vers mon produit dont l'id = 652788321005 </a>
@@ -32,3 +22,9 @@ This README would normally document whatever steps are necessary to get your app
 <a href="$url('Page-Show','cid','cart-topbanner')$">Lien vers l'url de mon content asset dont l'id = cart-topbanner</a>
 <!-- Lien vers une page seasonal show (noël) -->
 <a href="$url('Seasonal-Show','cid','')$">Lien vers ma catégorie dont l'id = vestes</a>
+* Pour montrer la page FAQ
+$url('Faq-Show')$
+* Pour créer un compte
+$url('Account-Show')$
+* Pour se connecter
+$url('Login-Show', 'activeTab', 'register', 'activateLoyalty', 'true')$

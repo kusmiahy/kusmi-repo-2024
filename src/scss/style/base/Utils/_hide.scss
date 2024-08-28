@@ -1,0 +1,32 @@
+.hide-mobile {
+    @media (max-width: 767px) {
+        display: none !important;
+    }
+}
+
+.hide-desktop {
+    @media (min-width: 768px) {
+        display: none !important;
+    }
+}
+
+.hide-mobile-l {
+    @media (max-width: 1023px) {
+        display: none !important;
+    }
+}
+.hide-desktop-l {
+    @media (min-width: 1024px) {
+        display: none !important;
+    }
+}
+.hide-desktop-homepromo {
+    @media (min-width: 652px) {
+        display: none !important;
+    }
+}
+.hide-mobile-homepromo {
+    @media (max-width: 651px) {
+        display: none !important;
+    }
+}
